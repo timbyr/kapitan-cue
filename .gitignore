@@ -1,1 +1,4 @@
 /compiled/
+
+/inventory/**/*.yml
+/inventory/**/*.yaml

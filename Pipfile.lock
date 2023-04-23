@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "hash": {
+      "sha256": "e76afccdbbd34d62649f8d306c9ba59eef4ad1730cd7167bf7c2cf27782d3aa9"
+    },
+    "pipfile-spec": 6,
+    "requires": {
+      "python_version": "3.10"
+    },
+    "sources": [
+      {
+        "name": "pypi",
+        "url": "https://pypi.org/simple",
+        "verify_ssl": true
+      }
+    ]
+  },
+  "default": {
+    "kapitan": {
+      "git": "https://github.com/timbyr/kapitan",
+      "ref": "4208c7cffb0bb25f0e62ad82449b1e3655e695f2"
+    }
+  },
+  "develop": {}
+}

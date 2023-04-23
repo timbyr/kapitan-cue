@@ -2,8 +2,8 @@ package gen
 
 kustomization: {
 
-#source: string @tag(source)
-#version: string @tag(version)
+#source: != "" @tag(source)
+#version: != "" @tag(version)
 
 apiVersion: "kustomize.config.k8s.io/v1beta1"
 kind:       "Kustomization"

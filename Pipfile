@@ -1,0 +1,12 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+kapitan = {git = "https://github.com/timbyr/kapitan", ref = "v0.31.0-cue"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
